@@ -19,7 +19,7 @@ a{
 .nav {
     background-color: #0b0b0b;
     border-bottom: 3px solid #95d600;
-    padding: 15px 20px 15px;
+    padding: 15px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,14 +36,13 @@ a{
 .nav ul {
     list-style: none;
     display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
+    padding: 0;
+    gap: 30px;
 }
 
 .nav a {
     font-family: "monster", sans-serif, arial;
     color: #ffffff;
-    text-decoration: none;
     font-weight: bold;
     font-size: 25px;
 }
@@ -180,4 +179,12 @@ button:hover span {
 .footer .nosotros {
     color: #95d600;
     text-decoration: none;
+}
+
+video {
+    display: block;
+    margin: 50px auto;
+    max-width: 40%;
+    border: 3px solid #95d600;
+    border-radius: 15px;
 }

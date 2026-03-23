@@ -35,11 +35,12 @@ a {
 .nav ul {
     list-style: none;
     display: flex;
-    gap: 3rem;
+    padding: 0;
+    gap: 30px;
 }
 
 .nav a {
-    font-family: "Monster", sans-serif, arial;
+    font-family: "monster", sans-serif, arial;
     color: #ffffff;
     font-weight: bold;
     font-size: 25px;
@@ -204,4 +205,12 @@ button:hover span {
 
 .footer .nosotros {
     color: #95d600;
+}
+
+video {
+    display: block;
+    margin: 50px auto;
+    max-width: 40%;
+    border: 3px solid #95d600;
+    border-radius: 15px;
 }
